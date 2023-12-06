@@ -16,11 +16,6 @@ The application will allow users to create, read, update, and delete (CRUD) item
 
 ### Steps to Build the Project:
 
-* Create a DynamoDB table to store the items. \
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table. \
-* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript). \
-* Create a CloudFront distribution to serve the S3-hosted static files with low latency. \
-
 -   Step 1: Create dynamoDB table 
     -   create table
         -   name => registration-form
